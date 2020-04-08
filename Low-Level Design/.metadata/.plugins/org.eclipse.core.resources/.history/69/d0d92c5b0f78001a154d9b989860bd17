@@ -1,0 +1,11 @@
+package com.parkinglot;
+
+public abstract class Vehicles {
+	enum Color{
+		RED,BLUE,GREEN;
+	}
+	String licensePlate;
+	Color c1=Color.BLUE;
+	
+
+}
