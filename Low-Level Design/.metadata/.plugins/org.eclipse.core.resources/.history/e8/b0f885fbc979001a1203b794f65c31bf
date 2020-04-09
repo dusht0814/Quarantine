@@ -1,0 +1,14 @@
+package com.parkinglot;
+
+public abstract class Vehicles {
+	enum Color{
+		RED,GREEN,BLUE;
+	}
+	String LicensePlate;
+	enum Size{ 
+		S,M,L,XL;
+	}
+	public abstract void display() {
+		
+	}
+}
