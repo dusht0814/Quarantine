@@ -12,7 +12,7 @@ if [ $response == "yes" ]
 fi
 echo "Please enter a  commit message:"
 read message
-git commit -m $message
+git commit -m "$message"
 echo "Do you want to push the commits to your branch?"
 echo "Enter yes or no"
 read  response
@@ -23,7 +23,7 @@ if [ $response == "yes" ]
 		echo "Pushing the commits to your branch $branchName"
 		git push origin $branchName
 		sleep 5
-		dusht0814
+		sudo -S dusht0814
 		sleep 5
 		allhailunclee_bada@77
 	else
