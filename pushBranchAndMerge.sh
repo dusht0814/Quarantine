@@ -21,7 +21,7 @@ if [ $response == "yes" ]
 		echo "Please enter the branch name you need to push changes"
 		read branchName
 		echo "Pushing the commits to your branch $branchName"
-		git push --repo https://dusht0814:allhailunclee_bada@77@github.com/Quarantine.git/ $branchName
+		git push --repo https://dusht0814:allhailunclee_bada@77@github.com/Quarantine.git/ 
 	else
 		exit 1
 fi
