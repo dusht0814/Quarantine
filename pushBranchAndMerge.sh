@@ -10,6 +10,8 @@ if [ $response == "yes" ]
 	else
 		exit 1
 fi
+username = 'dusht0814'
+password = 'allhailunclee_bada@77'
 echo "Please enter a  commit message:"
 read message
 git commit -m "$message"
@@ -21,7 +23,7 @@ if [ $response == "yes" ]
 		echo "Please enter the branch name you need to push changes"
 		read branchName
 		echo "Pushing the commits to your branch $branchName"
-		git push --repo https://dusht0814:allhailunclee_bada@77@github.com/Quarantine.git/ 
+		git push --repo https://$username:$password@github.com/Quarantine.git/ 
 	else
 		exit 1
 fi
